@@ -41,6 +41,13 @@ public class RootLayoutController {
     /**
      * Opens a FileChooser to let the user select an address book to load.
      */
+    /**
+     * Opens the birthday statistics.
+     */
+    @FXML
+    private void handleShowBirthdayStatistics() {
+      mainApp.showBirthdayStatistics();
+    }
     @FXML
     private void handleOpen() {
         FileChooser fileChooser = new FileChooser();
